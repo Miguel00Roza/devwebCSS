@@ -1,0 +1,113 @@
+/*comando de fonte responsiva*/
+html {
+    font-size: calc(15px + 0.590625vw);
+}
+body {
+    height:98vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    text-align: center;
+}
+header nav ul li {
+    margin: 15px 0 15px 0;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/*banner*/
+.banner {
+    text-align: center;
+    margin: 0 5vw 0 5vw;
+}
+.banner h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0 20px 0;
+}
+.banner p {
+    margin: 10px 0 10px 0;
+    line-height: 1.2rem;
+}
+.banner button {
+    margin: 6vw 0 15vw 0;
+    background-color: rgb(255, 70, 57);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.container1 {
+    background-color: #EDF7FA;
+    padding: 4vw 5vw 4vw 5vw;
+}
+.container1 h2 {
+    text-align: center;
+    padding: 3vw 0 3vw 0;
+}
+.container1 li {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 3vw;
+    box-shadow: 0px 4px 10px #cddadf;
+}
+.container1 li p {
+    margin-top: 5vw;
+}
+.container1 h3 {
+    font-weight: bold;
+    font-size: x-large;
+}
+.container2 h2 {
+    text-align: center;
+    padding-bottom: 5vw;
+}
+.container2 {
+    padding: 4vw 5vw 4vw 5vw;
+}
+.container2 h3{
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 2vw;
+    margin: 5vw 0 8vw 0;
+}
+.container2 {
+    margin: 3vw 0 3vw 0;
+}
+.container2 .dashboard {
+    color: gray;
+}
+.container2 span {
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #142850;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    margin-right: 5vw;
+}
+.container2 p {
+    margin-bottom: 8vw;
+}
+.container2 ul {
+    padding-bottom: 5vw;
+    border-bottom: solid 2px rgb(235, 235, 235);
+}
+.container2 ul li img {
+    width: 90%;
+    max-width: 391px;
+}
+footer {
+    text-align: center;
+    padding: 15vw 0 5vw 0;
+}
+footer p {
+    margin-bottom: 5vw;
+}
+footer p a {
+    padding: 0 8vw 0 0;
+}
